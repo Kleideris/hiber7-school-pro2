@@ -58,7 +58,7 @@ public class Course {
     public void removeTeacher(Teacher teacher) {
         if (teachers == null) return;
         teachers.remove(teacher);
-        teacher.getCourses.remove(this);
+        teacher.getCourses().remove(this);
     }
 
     @Override
